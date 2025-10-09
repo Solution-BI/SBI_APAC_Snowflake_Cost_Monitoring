@@ -1,0 +1,19 @@
+name: SBI_APAC_Snowflake_Cost_Monitoring
+version: 1.0.0
+config-version: 2
+profile: SBI_APAC_Snowflake_Cost_Monitoring
+model-paths:
+  - models
+analysis-paths:
+  - analyses
+test-paths:
+  - tests
+seed-paths:
+  - seeds
+macro-paths:
+  - macros
+snapshot-paths:
+  - snapshots
+models:
+  SBI_APAC_Snowflake_Cost_Monitoring:
+    +materialized: view
