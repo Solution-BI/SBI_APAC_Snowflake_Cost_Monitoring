@@ -1,0 +1,25 @@
+version: 2
+
+sources:
+  - name: account_usage
+    description: "Snowflake Account Usage schema containing metadata and usage information"
+    database: snowflake
+    schema: account_usage
+    tables:
+      - name: warehouse_metering_history
+        description: "Warehouse credit usage by warehouse over time"
+
+      - name: query_attribution_history
+        description: "Query attribution information for cost allocation"
+
+      - name: query_history
+        description: "Detailed information about queries executed in the account"
+
+      - name: metering_history
+        description: "Credit usage metering history across all services"
+
+      - name: metering_daily_history
+        description: "Daily aggregated credit usage metering history"
+
+      - name: storage_usage
+        description: "Storage usage information across databases and stages"

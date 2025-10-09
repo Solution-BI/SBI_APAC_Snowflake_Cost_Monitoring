@@ -14,6 +14,12 @@ macro-paths:
   - macros
 snapshot-paths:
   - snapshots
+
+on-run-start:
+  - "ALTER SESSION SET TIMEZONE = 'UTC'"
+  
 models:
   SBI_APAC_Snowflake_Cost_Monitoring:
     +materialized: view
+vars:
+  FIRST_LOAD: false

@@ -9,6 +9,3 @@ SBI_APAC_Snowflake_Cost_Monitoring:
       schema: USAGE_MONITORING_DEV
       account: ' '
       user: ' '
-
-
-Failed to push to Git: Failed to access the Git Repository. Operation push is not permitted by server for origin 'https://github.com/Solution-BI/SBI_APAC_Snowflake_Cost_Monitoring'.
