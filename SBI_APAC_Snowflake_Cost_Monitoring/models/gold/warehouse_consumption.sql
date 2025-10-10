@@ -1,8 +1,9 @@
 {{
     config(
         materialized='incremental',
-        unique_key=['usage_date', 'warehouse_id'],
-        tags=["daily"]
+        unique_key=['usage_date', 'entity_id'],
+        tags=["daily"],
+        incremental_strategy = 'delete+insert'
     )
 }}
 

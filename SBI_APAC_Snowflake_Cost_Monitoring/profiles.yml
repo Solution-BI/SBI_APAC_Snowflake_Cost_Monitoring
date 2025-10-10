@@ -9,3 +9,11 @@ SBI_APAC_Snowflake_Cost_Monitoring:
       schema: USAGE_MONITORING_DEV
       account: ' '
       user: ' '
+    prd:
+      type: snowflake
+      role: ACCOUNTADMIN
+      warehouse: COMPUTE_WH
+      database: MONITORING_DB
+      schema: USAGE_MONITORING_PRD
+      account: ' '
+      user: ' '
