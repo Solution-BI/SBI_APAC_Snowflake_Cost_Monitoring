@@ -54,3 +54,6 @@ Select "Workspaces"
 
 * Click "Create" to initialize your workspace
 * Snowflake will clone the repository and set up your development environment
+
+# dbt Project
+* Please update `project.yml` according to your need.
