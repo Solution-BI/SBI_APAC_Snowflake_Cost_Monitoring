@@ -3,17 +3,17 @@ SBI_APAC_Snowflake_Cost_Monitoring:
   outputs:
     dev:
       type: snowflake
-      role: ACCOUNTADMIN
-      warehouse: COMPUTE_WH
+      role: '"SF_APA_SANDBOX-MONITORING"'
+      warehouse: SANDBOX_MONITORING_WH
       database: MONITORING_DB
-      schema: USAGE_MONITORING_DEV
+      schema: USAGE_MONITORING
       account: ' '
       user: ' '
     prd:
       type: snowflake
-      role: ACCOUNTADMIN
-      warehouse: COMPUTE_WH
+      role: '"SF_APA_SANDBOX-MONITORING"'
+      warehouse: SANDBOX_MONITORING_WH
       database: MONITORING_DB
-      schema: USAGE_MONITORING_PRD
+      schema: USAGE_MONITORING
       account: ' '
       user: ' '
